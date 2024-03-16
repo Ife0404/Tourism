@@ -1,0 +1,26 @@
+.image-card {
+    border: none;
+    border-radius: 100px;
+    padding: 0px;
+    margin: 10px;
+    max-width: 140px;
+}
+
+.image-card img {
+    max-width: 100%;
+    cursor: pointer;
+    display: block; 
+    height: 155px;
+}
+
+/* .image-card p {
+    margin-top: -150px;
+    margin-left: 50px;
+    color: white;
+} */
+
+
+.image-card:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}

@@ -1,0 +1,47 @@
+/* .Home {
+    background: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+} */
+
+.home-paragraph p {
+    font-size: 50px;
+    font-weight: 550;
+    color: rgb(3, 58, 3);
+    margin-top: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-details {
+    max-width: 35%;
+    margin-left: 90px;
+    padding: 5px;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.card-title {
+    margin-left: 104.5px;
+}
+
+.card-title h4 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-card {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-top: -15px;
+}
+
+.home-description {
+    font-family: sans-serif;
+    margin-top: -35px;
+}

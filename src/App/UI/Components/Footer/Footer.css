@@ -1,0 +1,100 @@
+.Footer {
+    margin-top: 150px;
+}
+
+.footer-links {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 55px;
+}
+
+.payments {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-details {
+    max-width: 25%;
+}
+
+.para {
+    margin-top: -20px;
+}
+
+.para p {
+    font-family: sans-serif;
+}
+
+.footer-main a {
+    text-decoration: none;
+    color: black;
+}
+
+.first-icon {
+    justify-content: center;
+    align-items: center;
+}
+
+.first-icon a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.second-icon a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-main p {
+    font-family: sans-serif;
+}
+
+.footer-content hr {
+    margin-top: 30px;
+    color: white !important;
+    width: 85%;
+}
+
+.footer-below {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 137px;
+}
+
+.footer-below p {
+    font-family: sans-serif;
+    font-size: 600;
+}
+
+.additional-info {
+    display: flex;
+    gap: 25px;
+}
+
+.additional-info p {
+    display: flex;
+    align-items: center;
+}
+
+.gift-icon {
+    color: rgb(243, 46, 79);
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+.help-icon {
+    color: rgb(243, 46, 79);
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+.seller-icon {
+    color: rgb(243, 46, 79);
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+.terms-policy {
+    display: flex;
+    gap: 25px;
+}

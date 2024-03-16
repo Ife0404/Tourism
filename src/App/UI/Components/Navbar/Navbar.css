@@ -1,0 +1,191 @@
+.nav-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-content a {
+    margin-left: 15px;
+}
+
+.real-content {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    background: rgb(3, 58, 3);
+    padding: 4px 645px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info a {
+    color: white;
+}
+
+.contact-no {
+    justify-content: left;
+    margin-left: -600px;
+}
+
+.contact-no a {
+    display: flex;
+    align-items: center;
+}
+
+.contact-no .tele-icon {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.info-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-b {
+    display: flex;
+    margin-right: -600px;
+}
+
+.language-info {
+    margin-right: 50px;
+}
+
+.straight a {
+    color: white;
+}
+
+.location-info {
+    margin-right: 50px;
+}
+
+/* .discount-info {}
+
+.shop-info {}
+
+.language-info {}
+
+.location-info {} */
+
+.shop-info {
+    text-decoration: underline white;
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 45px;
+    margin-left: 30px;
+}
+
+.nav-links li a {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 450;
+    text-decoration: none;
+}
+
+.nav-links li a .account-icon {
+    margin-right: 5px;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 200;
+}
+
+.nav-links a .cart-icon {
+    margin-right: 5px;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 200;
+}
+
+.search-form input {
+    padding: 9px 15px;
+    background-color: #f0efef;
+    color: #4b4949;
+    border: none;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.search-form {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-form input[type="text"] {
+    padding-right: 40px;
+    /* Ensure space for the icon */
+}
+
+.search-form .search-icon {
+    align-items: center;
+    position: absolute;
+    margin-left: 200px;
+    color: #4b4949;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Adjust the icon size if needed */
+/* .search-form .search-icon svg {
+    font-size: 1.2em;
+} */
+
+
+/* .dropdown-content {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* Navbar.css */
+
+.nav-links ul li {
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+}
+
+
+.dropdown-content {
+    position: absolute;
+    top: 18%;
+    left: 10;
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 9px;
+    justify-content: center;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.nav-links li:hover .dropdown-content {
+    display: block;
+}
