@@ -1,24 +1,28 @@
 .image-card {
-    border: none;
-    border-radius: 100px;
-    padding: 0px;
     margin: 10px;
-    max-width: 140px;
+    width: 160px;
+    position: relative;
 }
 
 .image-card img {
     max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
     cursor: pointer;
-    display: block; 
+    display: block;
     height: 155px;
 }
 
-/* .image-card p {
+.image-card p {
+    position: absolute;
     margin-top: -150px;
-    margin-left: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     color: white;
-} */
-
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .image-card:hover {
     transform: scale(1.05);

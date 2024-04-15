@@ -17,7 +17,7 @@
 .contact-info {
     display: flex;
     background: rgb(3, 58, 3);
-    padding: 4px 645px;
+    padding: 4px 702px;
     align-items: center;
     justify-content: space-between;
 }
@@ -135,7 +135,7 @@
 .search-form .search-icon {
     align-items: center;
     position: absolute;
-    margin-left: 200px;
+    margin-left: 190px;
     color: #4b4949;
     top: 50%;
     transform: translateY(-50%);

@@ -1,5 +1,5 @@
-.Footer {
-    margin-top: 150px;
+.Footer {     
+    margin-top: 50px;
 }
 
 .footer-links {
@@ -9,13 +9,25 @@
     gap: 55px;
 }
 
+.footer-main h4 {
+    font-size: 18px;
+}
+
 .payments {
     display: flex;
     flex-direction: column;
 }
 
+.payment-icon {
+    margin-left: -7.5px;
+}
+
 .footer-details {
     max-width: 25%;
+}
+
+.icon {
+    margin-left: -5px;
 }
 
 .para {
@@ -32,16 +44,18 @@
 }
 
 .first-icon {
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    gap: 5px;
 }
 
-.first-icon a:not(:last-child) {
-    margin-right: 10px;
+.second-icon {
+    display: flex;
+    gap: 5px;
+    margin-top: 8px;
 }
 
-.second-icon a:not(:last-child) {
-    margin-right: 10px;
+.second-icon {
+    display: flex;
 }
 
 .footer-main p {
@@ -63,7 +77,6 @@
 
 .footer-below p {
     font-family: sans-serif;
-    font-size: 600;
 }
 
 .additional-info {
@@ -74,6 +87,7 @@
 .additional-info p {
     display: flex;
     align-items: center;
+    font-weight: 500;
 }
 
 .gift-icon {
@@ -97,4 +111,13 @@
 .terms-policy {
     display: flex;
     gap: 25px;
+}
+
+.terms-policy p {
+    font-weight: 500;
+}
+
+
+.footer-copyright p {
+    font-weight: 500;
 }

@@ -12,9 +12,9 @@ import klarna from '../../../Images/png/klarna2.png'
 import payPal from '../../../Images/png/pay.png';
 import applePay from '../../../Images/png/apay.png';
 import googlePay from '../../../Images/png/Gpay2.png';
-
+import PaymentCard from '../PaymentCard/PaymentCard';
 import { SiKlarna } from "react-icons/si";
-{/* <SiKlarna /> */}
+{/* <SiKlarna /> */ }
 
 function Footer() {
     return (
@@ -31,18 +31,21 @@ function Footer() {
                         </div>
                         <div className='payments'>
                             <h4>Accepted Payments</h4>
-                            <div className='first-icon'>
-                                <a><img src={stripe} alt='' height="30px" width="55px" /></a>
-                                <a><img src={visa} alt='' height="20px" width="55px" /></a>
-                                <a><img src={masterCard} alt='' height="30px" width="55px" /></a>
-                                <a><img src={amazon} alt='' height="30px" width="55px" /></a>
+                            <div className='icon'>
+                                <div className='first-icon'>
+                                    <PaymentCard paymentImage={stripe} alt='Payment Card' />
+                                    <PaymentCard paymentImage={visa} alt='Payment Card' />
+                                    <PaymentCard paymentImage={masterCard} alt='Payment Card' />
+                                    <PaymentCard paymentImage={amazon} alt='Payment Card' />
+                                </div>
+                                <div className='second-icon'>
+                                    <PaymentCard paymentImage={klarna} alt='Payment Card' />
+                                    <PaymentCard paymentImage={payPal} alt='Payment Card' />
+                                    <PaymentCard paymentImage={applePay} alt='Payment Card' />
+                                    <PaymentCard paymentImage={googlePay} alt='Payment Card' />
+                                </div>
                             </div>
-                            <div className='second-icon'>
-                                <a><img src={klarna} alt='' height="15px" width="55px" /></a>
-                                <a><img src={payPal} alt='' height="30px" width="25px" /></a>
-                                <a><img src={applePay} alt='' height="30px" width="55px" /></a>
-                                <a><img src={googlePay} alt='' height="30px" width="55px" /></a>
-                            </div>
+
                         </div>
                     </div>
                     <div className='footer-main'>
