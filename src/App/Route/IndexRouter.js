@@ -1,15 +1,18 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+// App.js
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from '../UI/Components/Pages/Home/Home';
+import Categories from '../UI/Components/Pages/Categories/Categories';
 
-const index = () => {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route Component={Home} path={""}></Route>
-            </Routes>
-        </BrowserRouter>
-    )
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/home" element={Home} />
+        <Route path="/categories" element={Categories} />
+        {/* Other routes */}
+      </Routes>
+    </Router>
+  );
 }
 
-export default index;
+export default App;

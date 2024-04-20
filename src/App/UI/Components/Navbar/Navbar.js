@@ -5,16 +5,25 @@ import { RxPerson } from "react-icons/rx";
 import { IoSearchOutline } from "react-icons/io5";
 import pageLogo from "../../../Images/png/17201701.png";
 import { BsTelephone } from "react-icons/bs";
-//import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 //import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 
 function Navbar() {
 
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    // const navigate = useNavigate();
 
-    const toggleDropdown = () => {
-        setIsDropdownOpen(!isDropdownOpen);
-    };
+    // const handleNavigation = () => {
+    //     navigate('/home');
+    // };
+
+    
+// onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}
+    // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+    // const toggleDropdown = () => {
+    //     setIsDropdownOpen(!isDropdownOpen);
+    // };
+
 
     const [searchTerm, setSearchTerm] = useState('');
 
@@ -27,12 +36,6 @@ function Navbar() {
         // Handle search submission logic here
         console.log('Search submitted:', searchTerm);
     };
-
-    // const navigate = useNavigate();
-
-    //   const handleNavigation = () => {
-    //     navigate = '';
-    //   }
 
     return (
         <div className='Navbar'>
@@ -63,13 +66,13 @@ function Navbar() {
 
                 </div>
                 <div className='real-content'>
-                    <a><img src={pageLogo} alt='' height="100px" width="100px" /></a>
+                    <a><img src={pageLogo} alt='' height="100px" width="100px"  /></a>
 
                     <div className='nav-links'>
                         <nav>
                             <ul>
-                                <li onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}><a href='#'>Categories</a>
-                                    {isDropdownOpen && (
+                                <li ><a href='/categories'>Categories</a>
+                                    {/* {isDropdownOpen && (
                                         <div className='dropdown-content'>
                                             <a href='#'>Furniture</a>
                                             <a href='#'>Bag</a>
@@ -78,7 +81,7 @@ function Navbar() {
                                             <a href='#'>Book</a>
                                             <a href='#'>Laptop</a>
                                         </div>
-                                    )}
+                                    )} */}
                                 </li>
 
                                 <li><a href='#'>Deals</a></li>

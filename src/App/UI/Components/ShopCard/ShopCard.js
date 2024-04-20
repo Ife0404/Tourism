@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './ShopCard.css';
 
 function ShopCard({ title, description, shopImage, altText }) {
   return (

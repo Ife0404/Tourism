@@ -31,6 +31,7 @@ import ShopCard from '../../ShopCard/ShopCard';
 import family from '../../../../Images/png/family.png';
 import phone from '../../../../Images/png/phone.png';
 import guy from '../../../../Images/png/guy.png';
+import gift from '../../../../Images/png/giftcard.png';
 
 {/* <SiTarget /> */ }
 // import { RiArrowDropDownLine } from "react-icons/ri";
@@ -110,6 +111,7 @@ function Home() {
             <ShopCard shopImage={family} title='Frequently Asked Questions' description='Updates on safe shopping in our stores' altText='Shop Image' />
             <ShopCard shopImage={phone} title='Online Payment Process' description='Updates on safe shopping in our stores' altText='Shop Image' />
             <ShopCard shopImage={guy} title='Home Delivery Options' description='Updates on safe shopping in our stores' altText='Shop Image' />
+            <ShopCard shopImage={gift} title='Use Gift and Prepaid Cards' description='Updates on safe shopping in our stores' altText='Shop Image' />
           </div>
         </div>
       </div>
