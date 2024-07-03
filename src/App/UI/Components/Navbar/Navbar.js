@@ -5,19 +5,19 @@ import { RxPerson } from "react-icons/rx";
 import { IoSearchOutline } from "react-icons/io5";
 import pageLogo from "../../../Images/png/17201701.png";
 import { BsTelephone } from "react-icons/bs";
-// import { useNavigate } from 'react-router-dom';
-//import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 
 function Navbar() {
 
     // const navigate = useNavigate();
 
-    // const handleNavigation = () => {
-    //     navigate('/home');
+    // const handleHomeClick = () => {
+    //     navigate('/');
     // };
 
-    
-// onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}
+
+    // onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}
     // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     // const toggleDropdown = () => {
@@ -66,7 +66,7 @@ function Navbar() {
 
                 </div>
                 <div className='real-content'>
-                    <a><img src={pageLogo} alt='' height="100px" width="100px"  /></a>
+                    <a><img src={pageLogo} alt='' height="100px" width="100px" /></a>
 
                     <div className='nav-links'>
                         <nav>

@@ -15,7 +15,7 @@
 }
 
 .home-content {
-    background: url('https://t3.ftcdn.net/jpg/06/28/25/36/360_F_628253694_Czf6Y1SnQnIVUAL0tsOWXh2loOdsIFzS.jpg');
+    background: url('https://assets-global.website-files.com/63e857eaeaf853471d5335ff/63e9b930e006824963189865_bg-stage.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,6 +102,7 @@
     align-items: center;
     justify-content: center;
     margin-left: -102.5px;
+    color: #797777;
 }
 
 .info-cards {
