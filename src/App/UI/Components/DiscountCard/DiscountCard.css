@@ -1,0 +1,82 @@
+.discount-image img {
+    width: 237.63px;
+    height: 170px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+}
+
+.paragraph {
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 237.63px;
+    height: 170px;
+}
+
+.paragraph-content {
+    column-gap: 200px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.save-discount {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.number-discount {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.story-discount {
+    font-size: 13px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+.number {
+    display: flex;
+    gap: -9px;
+    margin-top: 5px;
+}
+
+.dollar {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.background-yellow {
+    background-color: rgba(241, 231, 208, 0.801);
+}
+
+.background-cream {
+    background-color: rgb(250, 238, 238);
+}
+
+.background-red {
+    background-color: rgb(250, 213, 217);
+}
+
+.background-green {
+    background-color: rgb(197, 218, 197);
+}
+
+.font-yellow {
+    color: rgba(247, 171, 6, 0.801);
+}
+
+.font-cream {
+    color: peru;
+}
+
+.font-red {
+    color: crimson;
+}
+
+.font-green {
+    color: rgb(3, 58, 3);
+}

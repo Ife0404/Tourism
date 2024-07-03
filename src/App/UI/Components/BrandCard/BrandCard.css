@@ -1,0 +1,64 @@
+.brand-image img {
+    max-width: 100px;
+    border-radius: 50%;
+    max-height: 60px;
+}
+
+.brand-details p {
+    font-size: 11px;
+}
+
+.brand-details h2 {
+    margin-left: 0.5px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    width: fit-content;
+}
+
+.brand-main {
+    margin-left: -38px;
+}
+
+.brand-details h2{
+    margin-bottom: 2px;
+}
+
+.brand-details p{
+    margin-top: 2px;
+}
+
+.brand-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 280px;
+}
+
+.brand-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.brand-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.brand-title {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.brand-card:hover {
+    border: 1.0px solid rgb(3, 58, 3);
+    transition: all 0.4s ease-in-out;
+}

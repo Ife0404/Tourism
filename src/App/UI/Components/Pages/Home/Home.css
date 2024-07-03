@@ -1,0 +1,121 @@
+.brand-cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 104.5px;
+}
+
+.card-one {
+    display: flex;
+    gap: 28px;
+}
+
+.card-two {
+    display: flex;
+    gap: 28px;
+}
+
+.home-content {
+    background: url('https://assets-global.website-files.com/63e857eaeaf853471d5335ff/63e9b930e006824963189865_bg-stage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+}
+
+.homep {
+    margin-top: 150px;
+}
+
+.home-paragraph p {
+    font-size: 50px;
+    font-weight: 550;
+    color: rgb(3, 58, 3);
+    margin-top: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-details {
+    max-width: 35%;
+    margin-left: 90px;
+    padding: 5px;
+    position: relative;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.card-title {
+    margin-left: 104.5px;
+}
+
+.card-title h4 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-brand {
+    margin-top: 50px;
+}
+
+.brand-cards {
+    display: flex;
+    gap: 28px;
+}
+
+.brand-title {
+    margin-left: 104.5px;
+}
+
+.brand-title h4 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-card {
+    display: flex;
+    justify-content: center;
+    gap: 28.5px;
+    margin-top: -15px;
+    margin-left: 13px;
+}
+
+.home-description {
+    font-family: sans-serif;
+    margin-top: -35px;
+}
+
+.home-discount {
+    margin-top: 50px;
+    margin-left: 104.5px;
+}
+
+.discount-title h4 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.discount-cards {
+    display: flex;
+    gap: 84.5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -102.5px;
+    color: #797777;
+}
+
+.info-cards {
+    display: flex;
+    gap: 41.5px;
+}
+
+.info-title h4 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-info {
+    margin-left: 104.5px;
+    margin-top: 50px;
+}

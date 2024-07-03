@@ -1,0 +1,31 @@
+.image-card {
+    margin: 10px;
+    width: 160px;
+    position: relative;
+}
+
+.image-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+    height: 155px;
+}
+
+.image-card p {
+    position: absolute;
+    overflow: hidden;
+    margin-top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-card:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
